@@ -45,6 +45,7 @@
 		3C5BB4FB2797049A00B6E0C0 = {
 			isa = PBXGroup;
 			children = (
+				3C5BB5212797055400B6E0C0 /* Products */,
 				3C5BB5002797049B00B6E0C0 /* Shared */,
 				3C5BB50F279704A500B6E0C0 /* macOS */,
 				3C5BB509279704A500B6E0C0 /* Products */,
@@ -55,7 +56,8 @@
 			isa = PBXGroup;
 			children = (
 				3C5BB5012797049B00B6E0C0 /* TrckerMultiPlatformApp.swift */,
-				3C5BB5022797049B00B6E0C0 /* ContentView.swift */,
+				3C5BB520279704EF00B6E0C0 /* Model */,
+				3C5BB51F279704DE00B6E0C0 /* Views */,
 				3C5BB503279704A500B6E0C0 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -76,6 +78,28 @@
 				3C5BB510279704A500B6E0C0 /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		3C5BB51F279704DE00B6E0C0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3C5BB5022797049B00B6E0C0 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3C5BB520279704EF00B6E0C0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3C5BB5212797055400B6E0C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
