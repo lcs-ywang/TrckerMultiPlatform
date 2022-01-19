@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		3C5BB511279704A500B6E0C0 /* TrckerMultiPlatformApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5BB5012797049B00B6E0C0 /* TrckerMultiPlatformApp.swift */; };
 		3C5BB512279704A500B6E0C0 /* TrckerMultiPlatformApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5BB5012797049B00B6E0C0 /* TrckerMultiPlatformApp.swift */; };
-		3C5BB513279704A500B6E0C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5BB5022797049B00B6E0C0 /* ContentView.swift */; };
-		3C5BB514279704A500B6E0C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5BB5022797049B00B6E0C0 /* ContentView.swift */; };
 		3C5BB515279704A500B6E0C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C5BB503279704A500B6E0C0 /* Assets.xcassets */; };
 		3C5BB516279704A500B6E0C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C5BB503279704A500B6E0C0 /* Assets.xcassets */; };
 		3C5BB5242797084C00B6E0C0 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 3C5BB5222797084C00B6E0C0 /* locations.json */; };
@@ -19,11 +17,12 @@
 		3C5BB5272797084C00B6E0C0 /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = 3C5BB5232797084C00B6E0C0 /* tips.json */; };
 		3C5BB529279708A600B6E0C0 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5BB528279708A600B6E0C0 /* Location.swift */; };
 		3C5BB52A279708A600B6E0C0 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5BB528279708A600B6E0C0 /* Location.swift */; };
+		3C5BB52C27970A3C00B6E0C0 /* LocationDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5BB52B27970A3C00B6E0C0 /* LocationDetail.swift */; };
+		3C5BB52D27970A3C00B6E0C0 /* LocationDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5BB52B27970A3C00B6E0C0 /* LocationDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3C5BB5012797049B00B6E0C0 /* TrckerMultiPlatformApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrckerMultiPlatformApp.swift; sourceTree = "<group>"; };
-		3C5BB5022797049B00B6E0C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3C5BB503279704A500B6E0C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C5BB508279704A500B6E0C0 /* TrckerMultiPlatform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrckerMultiPlatform.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C5BB50E279704A500B6E0C0 /* TrckerMultiPlatform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrckerMultiPlatform.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -31,6 +30,7 @@
 		3C5BB5222797084C00B6E0C0 /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
 		3C5BB5232797084C00B6E0C0 /* tips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tips.json; sourceTree = "<group>"; };
 		3C5BB528279708A600B6E0C0 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		3C5BB52B27970A3C00B6E0C0 /* LocationDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +92,7 @@
 		3C5BB51F279704DE00B6E0C0 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				3C5BB5022797049B00B6E0C0 /* ContentView.swift */,
+				3C5BB52B27970A3C00B6E0C0 /* LocationDetail.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -216,9 +216,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C5BB513279704A500B6E0C0 /* ContentView.swift in Sources */,
 				3C5BB529279708A600B6E0C0 /* Location.swift in Sources */,
 				3C5BB511279704A500B6E0C0 /* TrckerMultiPlatformApp.swift in Sources */,
+				3C5BB52C27970A3C00B6E0C0 /* LocationDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,9 +226,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C5BB514279704A500B6E0C0 /* ContentView.swift in Sources */,
 				3C5BB52A279708A600B6E0C0 /* Location.swift in Sources */,
 				3C5BB512279704A500B6E0C0 /* TrckerMultiPlatformApp.swift in Sources */,
+				3C5BB52D27970A3C00B6E0C0 /* LocationDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
