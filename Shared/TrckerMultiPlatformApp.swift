@@ -37,11 +37,14 @@ struct TrckerMultiPlatformApp: App {
                 
                 NavigationView {
                     TipsList()
-                        .tabItem{
-                            Image(systemName: "person.fill.question")
-                            Text("Tips")
-                        }
+                    
                 }
+                        .tabItem{
+                            Image(systemName: "person.fill.questionmark")
+                            Text("Tips")
+                            
+                }
+                
             }
             
             
