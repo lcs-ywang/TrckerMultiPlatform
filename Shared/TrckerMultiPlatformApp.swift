@@ -28,7 +28,7 @@ struct TrckerMultiPlatformApp: App {
                     Text("Locations")
                 }
                 NavigationView{
-                    WorldMap()
+                    WorldMap(store: store)
                 }
                 .tabItem {
                     Image(systemName: "map")
