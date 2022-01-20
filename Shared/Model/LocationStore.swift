@@ -19,8 +19,8 @@ class LocationStore: ObservableObject{
         
         places = try! JSONDecoder().decode([Location].self, from: data)
         
-        places.sort(by: { $0.name < $1.name
-        
+        places.sort(by: { (oneLocation, anotherLocation) in
+            oneLocation.name > anotherLocation.name
         })
                       
     }
